@@ -26,7 +26,7 @@ export default function MovingText() {
     <div className="w-full overflow-hidden bg-[#faf8f8] py-6">
       <div
         ref={marqueeRef}
-        className="flex whitespace-nowrap text-2xl sm:text-3xl md:text-4xl font-medium"
+        className="flex whitespace-nowrap text-xl sm:text-3xl md:text-4xl font-medium"
         style={{ width: "max-content" }}
       >
         <span className="mx-8">★ Ready to Connect?</span>

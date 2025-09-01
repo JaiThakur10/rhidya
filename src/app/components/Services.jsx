@@ -7,22 +7,22 @@ const items = [
   {
     number: "01",
     title: "Social Media Management",
-    image: "/images/footerbg.jpeg",
+    image: "/images/smm.avif",
   },
   {
     number: "02",
     title: "Ads",
-    image: "/images/footerbg.jpeg",
+    image: "/images/ads.avif",
   },
   {
     number: "03",
     title: "Graphic Designing",
-    image: "/images/footerbg.jpeg",
+    image: "/images/gd.avif",
   },
   {
     number: "04",
     title: "Video Editing",
-    image: "/images/footerbg.jpeg",
+    image: "/images/ve.avif",
   },
 ];
 
@@ -49,7 +49,7 @@ export default function HoverImageList() {
   return (
     <section className="relative w-full bg-[#faf8f8] py-20">
       <h1
-        className="text-[40px] sm:text-[60px] mx-0 md:mx-30 md:text-[100px] lg:text-[140px] font-normal uppercase mb-16"
+        className="text-[40px] sm:text-[60px] px-6 mx-0 md:mx-30 md:text-[100px] lg:text-[140px] font-normal uppercase mb-16"
         style={{
           display: "inline-block",
           backgroundImage:
@@ -64,7 +64,7 @@ export default function HoverImageList() {
         SERVICES
       </h1>
 
-      <div className="max-w-7xl mx-auto relative">
+      <div className="max-w-7xl mx-auto px-6 relative">
         {/* Items list */}
         <div className="w-full relative z-10">
           {items.map((item, index) => (
@@ -88,9 +88,7 @@ export default function HoverImageList() {
                   <span className="text-gray-500 text-lg font-medium w-10">
                     {item.number}
                   </span>
-                  <h2 className="text-2xl md:text-3xl font-semibold">
-                    {item.title}
-                  </h2>
+                  <h2 className="text-2xl md:text-5xl ">{item.title}</h2>
                 </div>
               </div>
             </div>

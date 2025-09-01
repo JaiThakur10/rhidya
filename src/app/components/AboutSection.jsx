@@ -11,11 +11,11 @@ export default function AboutSection() {
 
         {/* Right: Paragraph Content */}
         <div className="max-w-2xl text-[18px] leading-8 text-neutral-700">
-          <p className="mb-4 text-black font-medium">
+          <p className="mb-4 text-black text-sm md:text-lg font-medium">
             Hi, I’m Rhidya Gupta, a passionate and driven Digital Marketing
             Manager with a creative heart and a strategic mind.
           </p>
-          <p className="text-neutral-600 font-normal">
+          <p className="text-neutral-600 text-xs md:text-lg font-normal">
             With an MSc in Business Management from Cardiff University, UK, I
             bring global perspective, marketing expertise, and entrepreneurial
             energy to every brand I work with. From managing cross-platform

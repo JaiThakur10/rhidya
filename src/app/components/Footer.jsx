@@ -64,7 +64,7 @@ export default function Footer() {
         {/* Bottom meta */}
         <div className="mt-20 sm:mt-28 md:mt-[132px] flex items-center justify-center">
           <Link href="https://jai-thakur.vercel.app/">
-            <p className="text-lg  leading-5 font-light opacity-85 text-center">
+            <p className="md:text-lg text-sm leading-5 font-light opacity-85 text-center">
               Designed by Jai Thakur
             </p>
           </Link>

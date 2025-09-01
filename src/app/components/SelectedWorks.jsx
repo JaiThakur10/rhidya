@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import FlyingPosters from "./FlyingPosters";
 
 const items = [
-  "/rhidya1010.png",
+  "/rdhiya1010.png",
   "https://picsum.photos/600/600?grayscale",
   "https://picsum.photos/400/400?grayscale",
 ];

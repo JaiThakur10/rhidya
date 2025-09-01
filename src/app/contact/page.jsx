@@ -5,7 +5,7 @@ import MovingText from "../components/MovingText";
 export default function Contact() {
   return (
     <>
-      <div className="min-h-screen bg-[#FAF6F6] flex flex-col px-4 py-8 md:px-20 md:py-16">
+      <div className="min-h-screen bg-[#FAF6F6] flex flex-col px-4 py-20 md:px-20 md:py-16">
         {/* Heading */}
         <h1
           className="text-4xl md:text-9xl text-center md:mx-auto mt-8 md:mt-16 text-gray-900 uppercase mb-8 md:mb-12"
