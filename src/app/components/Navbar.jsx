@@ -13,7 +13,7 @@ export default function Navbar() {
       {/* Top Navigation Bar */}
       <div className="flex items-center justify-between md:px-8 py-6  md:mx-4 ">
         <Link href="/">
-          <div className="text-xl font-normal  mx-2 md:mx-4 md:px-4 py-2 text-black rounded bg-[#F6F6F6] whitespace-nowrap">
+          <div className="text-xl font-normal  mx-2 md:mx-4 md:px-4 py-2 text-black rounded bg-[#FAF6F6] whitespace-nowrap">
             RHIDYA GUPTA
           </div>
         </Link>
@@ -22,7 +22,7 @@ export default function Navbar() {
           {/* Custom Hamburger */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="flex flex-col justify-center items-center w-10 h-10 gap-[3px] relative bg-[#F6F6F6] rounded-l"
+            className="flex flex-col justify-center items-center w-10 h-10 gap-[3px] relative bg-[#FAF6F6] rounded-l"
             aria-label="Toggle Menu"
           >
             <motion.span
@@ -40,7 +40,7 @@ export default function Navbar() {
           {/* Phone Icon */}
           <a
             href="tel:+911234567890"
-            className="w-10 h-10 flex items-center justify-center rounded-r bg-[#F6F6F6] text-black  transition-colors duration-200"
+            className="w-10 h-10 flex items-center justify-center rounded-r bg-[#FAF6F6] text-black  transition-colors duration-200"
             aria-label="Call"
           >
             <FiPhone className="text-[20px]" />
@@ -61,7 +61,7 @@ export default function Navbar() {
             {/* Top bar inside menu */}
             <div className="flex items-center justify-between px-8 py-6 mx-4 mt-4">
               <Link href="/">
-                <div className="text-sm font-medium px-4 py-2 border rounded bg-[#F6F6F6] text-black">
+                <div className="text-sm font-medium px-4 py-2 border rounded bg-[#FAF6F6] text-black">
                   RHIDYA GUPTA
                 </div>
               </Link>
@@ -71,7 +71,7 @@ export default function Navbar() {
                   {/* Close Button (same as hamburger but animated to cross) */}
                   <button
                     onClick={() => setIsOpen(false)}
-                    className="flex flex-col justify-center items-center w-10 h-10 gap-[3px] relative bg-[#F6F6F6] "
+                    className="flex flex-col justify-center items-center w-10 h-10 gap-[3px] relative bg-[#FAF6F6] "
                     aria-label="Close Menu"
                   >
                     <motion.span
@@ -91,7 +91,7 @@ export default function Navbar() {
                   {/* Phone Icon */}
                   <a
                     href="tel:+911234567890"
-                    className="w-10 h-10 flex items-center justify-center  bg-[#F6F6F6] text-black  transition-colors duration-200"
+                    className="w-10 h-10 flex items-center justify-center  bg-[#FAF6F6] text-black  transition-colors duration-200"
                     aria-label="Call"
                   >
                     <FiPhone className="text-[20px]" />
