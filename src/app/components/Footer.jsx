@@ -41,10 +41,10 @@ export default function Footer() {
 
           <div className=" cursor-pointer">
             <p className="text-lg md:text-[20px] leading-snug font-light">
-              28 D/C, Gandhi Nagar
+              Jammu
             </p>
             <p className="text-sm md:text-[18px] leading-relaxed font-light opacity-85">
-              Jammu, India
+              India
             </p>
           </div>
         </div>
