@@ -170,7 +170,7 @@ const TrailingImage = () => {
     }
   }, []);
 
-  useMousePosition(containerRef, update);
+  useMousePosition(containerRef as React.RefObject<HTMLDivElement>, update);
 
   return (
     <div
